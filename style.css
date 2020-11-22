@@ -124,10 +124,19 @@ body {
 
 .part {
   border-color: transparent !important;
-  --status-border-top-color:: transparent !important;
+  --status-border-top-color: transparent !important;
 }
 
 /* Terminal. */
 .composite.title {
   border-color: transparent !important;
+}
+
+.tabs-border-bottom {
+  --tabs-border-bottom-color: transparent !important;
+}
+
+.tab {
+  --tab-border-bottom-color: transparent !important;
+  --tab-border-top-color: !important;
 }
